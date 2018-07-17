@@ -3,7 +3,7 @@ import { Card } from './../src/Card';
 import { expect } from 'chai';
 
 describe('create card', () => {
-    it('should create a instance of Card', () => {        
+    it('should create an instance of Card', () => {        
         const sut = new CardFactory();
         expect(sut.create()).to.instanceOf(Card);
     })
